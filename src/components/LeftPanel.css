@@ -1,0 +1,55 @@
+#LeftPanel {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+    background-color: rgb(41, 44, 64);
+    padding: 10px;
+    margin: 1%;
+    border-radius: 25px;
+    flex: 0 0 auto;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#profilePic {
+    width: 200px;
+    height: 210px;
+    border-radius: 20%;
+    margin-top: 80px;
+}
+
+#name {
+    color: white;
+    font-size: 55px;
+    margin-bottom: 0px;
+    text-shadow: -2px 2px 4px rgba(52, 183, 253, 0.982);
+}
+
+#occupation {
+    color: rgb(69, 135, 242);
+    font-size: 27px;
+    margin-bottom: 70px;
+    margin-top: 15px;
+    
+}
+
+#education {
+    display: flex;
+    width: 100%;
+    margin-bottom: 7px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo {
+    width: 30px;
+    height: 30px;
+}
+
+#school {
+
+}

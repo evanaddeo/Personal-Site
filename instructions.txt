@@ -1,0 +1,10 @@
+INCLUDE
+- About me : name, photo, education, what I have DONe and where I would LIKE TO GO in my career
+- Projects : get creative with it? ie. videos, GIFs
+- Contact me : contact form, social media channels - github, linkedin, email, phone number
+
+IMPORTANT ASPECTS
+- Responsive design : media queries, different CSS & JS for mobile
+- Personality : show who I am! Don't make it too bland & boring
+- Custom URL : evanaddeo.com ?
+- Touchpoints : minimize buttons & pages, make one fluid page

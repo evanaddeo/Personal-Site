@@ -1,0 +1,31 @@
+#imgLogo {
+    width: 40px;
+    height: 40px;
+}
+
+#ProfileLinks {
+    width: 55px;
+    height: 55px;
+}
+
+#GHLink {
+    width: 33px;
+    height: 33px;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 7px;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+.line {
+    width: 28%;
+}
