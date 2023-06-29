@@ -20,7 +20,21 @@ function RightPanel() {
 
   return (
     <div ref={elementRef} id="RightPanel">
-      <h1>Right Panel</h1>
+      <div>
+        <h1>Hello, I'm Evan</h1>
+      </div>
+      <div>
+        <h1>Work Experience</h1>
+      </div>
+      <div>
+        <h1>Projects</h1>
+      </div>
+      <div>
+        <h1>Skills</h1>
+      </div>
+      <div>
+        <h1>About Me</h1>
+      </div>
     </div>
   );
 }

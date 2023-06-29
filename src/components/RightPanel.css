@@ -16,7 +16,7 @@
     linear-gradient(90deg,#0000 33%,rgba(54, 65, 106, 0.14) 50%,#0000 66%)
     rgb(41, 44, 64);
   background-size:300% 100%;
-  animation: shine 2s infinite;
+  animation: shine 2s;
 }
 
 @keyframes shine {
