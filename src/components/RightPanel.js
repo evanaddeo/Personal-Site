@@ -1,5 +1,10 @@
 import React, { useEffect, useRef } from 'react';
 import "./RightPanel.css";
+import Intro from "./Intro.js";
+import Experience from './Experience';
+import Projects from './Projects';
+import Skills from './Skills';
+import About from './About';
 
 function RightPanel() {
   const elementRef = useRef(null);
@@ -20,21 +25,11 @@ function RightPanel() {
 
   return (
     <div ref={elementRef} id="RightPanel">
-      <div>
-        <h1>Hello, I'm Evan</h1>
-      </div>
-      <div>
-        <h1>Work Experience</h1>
-      </div>
-      <div>
-        <h1>Projects</h1>
-      </div>
-      <div>
-        <h1>Skills</h1>
-      </div>
-      <div>
-        <h1>About Me</h1>
-      </div>
+      <Intro/>
+      <Experience/>
+      <Projects/>
+      <Skills/>
+      <About/>
     </div>
   );
 }

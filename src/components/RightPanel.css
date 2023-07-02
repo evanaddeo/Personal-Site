@@ -3,7 +3,7 @@
     background: linear-gradient(to bottom, rgb(41, 44, 64), rgb(19, 20, 33));
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     transition: all 0.5s ease-in-out;
     margin: 15px 15px 15px 0px;
@@ -11,7 +11,7 @@
     flex: 1 1 auto;
     overflow-y: auto;
     margin-left: 30.5%;
-
+    padding-left: 60px;
     background: 
     linear-gradient(90deg,#0000 33%,rgba(54, 65, 106, 0.14) 50%,#0000 66%)
     rgb(41, 44, 64);

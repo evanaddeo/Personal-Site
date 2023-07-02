@@ -1,0 +1,70 @@
+#Experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+.job {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 10px 0px 10px 0px;
+    width: 60vw;
+}
+
+.jobInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 20px;
+    width: 100%;
+}
+
+.jobHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.titles {
+    
+}
+
+.dates {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.companyLogo {
+    width: 45px;
+    height: 45px;
+    border-radius: 20%;
+    margin-top: 1%;
+}
+
+h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+h4 {
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
