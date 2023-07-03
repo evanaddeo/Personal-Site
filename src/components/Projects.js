@@ -1,4 +1,5 @@
 import "./Projects.css";
+import SkillTag from "./SkillTag";
 
 // function that displays 3 horizontally listed blocks
 // each block contains a title, a short description, and a link to the project
@@ -10,22 +11,51 @@ function Projects() {
             <div>
                 <h1>Projects</h1>
             </div>
-            <div>
-                <h3>Project 1 Name</h3>
-                <h4>Project 1 Description</h4>
-                <h4>Project 1 Link</h4>
+            <div className="container">
+                <div className="projContainer">
+                    <img className="projPics" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" alt="project screenshot" />
+                    <h2>DawgByte Fitness</h2>
+                    <h5>React Native - JavaScript</h5>
+                    <p>I did this, this, this, this, this, this, and this</p>
+                    <div className="projSkills">
+                        <SkillTag skillName="React Native" url="https://reactnative.dev/" />
+                        <SkillTag skillName="JavaScript" url="https://www.javascript.com/" />
+                        <SkillTag skillName="Node.js" url="https://nodejs.org/en/" />
+                        <SkillTag skillName="Express" url="https://expressjs.com/" />
+                        <SkillTag skillName="Mongo" url="https://www.mongodb.com/" />
+                        <SkillTag skillName="Mongoose" url="https://mongoosejs.com/" />
+                    </div>
+                </div>
+                <div className="projContainer">
+                    <img className="projPics" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" alt="project screenshot" />
+                    <h2>iTunes Clone</h2>
+                    <h5>Java - JavaFX</h5>
+                    <p>I did this, this, this, this, this, this, and this</p>
+                    <div className="projSkills">
+                        <SkillTag skillName="React Native" url="https://reactnative.dev/" />
+                        <SkillTag skillName="JavaScript" url="https://www.javascript.com/" />
+                        <SkillTag skillName="Node.js" url="https://nodejs.org/en/" />
+                        <SkillTag skillName="Express" url="https://expressjs.com/" />
+                        <SkillTag skillName="Mongo" url="https://www.mongodb.com/" />
+                        <SkillTag skillName="Mongoose" url="https://mongoosejs.com/" />
+                    </div>
+                </div>
+                <div className="projContainer">
+                    <img className="projPics" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" alt="project screenshot" />
+                    <h2>All About Evan</h2>
+                    <h5>React - JavaScript</h5>
+                    <p>I did this, this, this, this, this, this, and this</p>
+                    <div className="projSkills">
+                        <SkillTag skillName="React Native" url="https://reactnative.dev/" />
+                        <SkillTag skillName="JavaScript" url="https://www.javascript.com/" />
+                        <SkillTag skillName="Node.js" url="https://nodejs.org/en/" />
+                        <SkillTag skillName="Express" url="https://expressjs.com/" />
+                        <SkillTag skillName="Mongo" url="https://www.mongodb.com/" />
+                        <SkillTag skillName="Mongoose" url="https://mongoosejs.com/" />
+                    </div>
+                </div>
             </div>
-            <div>
-                <h3>Project 2 Name</h3>
-                <h4>Project 2 Description</h4>
-                <h4>Project 2 Link</h4>
-            </div>
-            <div>
-
-                <h3>Project 3 Name</h3>
-                <h4>Project 3 Description</h4>
-                <h4>Project 3 Link</h4>
-            </div>
+            
         </div>
     );
 }

@@ -1,23 +1,24 @@
 img {
-    width: 17px;
-    height: 17px;
+    width: 13px;
+    height: 13px;
     margin-right: 5px;
     border-radius: 50%;
 }
 
 span {
     color: white;
-    padding-bottom: 2px;
+    padding-bottom: 1.5px;
 }
 
 #elem {
+    font-size: 12px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin: 5px;
-    border: 2px solid blue;
+    margin: 5px 5px 0px 0px;
+    border: 2px solid rgb(42, 111, 222);
+    padding: 2px 8px 2px 8px;
     background-color: transparent;
-    padding: 5px 10px 5px 10px;
     border-radius: 15px;
 }

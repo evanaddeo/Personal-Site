@@ -1,0 +1,25 @@
+.skillType {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.projSkills {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.typePics {
+    width: 30px;
+    height: 30px;
+}
+
+.content {
+    margin-left: 15px;
+}

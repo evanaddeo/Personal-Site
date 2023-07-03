@@ -10,32 +10,49 @@ function Skills() {
             <div>
                 <h1>Skills</h1>
             </div>
-            <div>
-                <h3>Front End</h3>
-                <SkillTag skillName="HTML"/>
-                <SkillTag skillName="CSS"/>
-                <SkillTag skillName="JavaScript"/>
-                <SkillTag skillName="React"/>
-                <SkillTag skillName="Bootstrap"/>
-                <SkillTag skillName="Material UI"/>
+            <div className="skillType">
+            <img className="typePics" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" alt="project screenshot" />
+                <div className="content">
+                    <h2>Use for work</h2>
+                    <div className="projSkills">
+                        <SkillTag skillName="React Native" url="https://reactnative.dev/" />
+                        <SkillTag skillName="JavaScript" url="https://www.javascript.com/" />
+                        <SkillTag skillName="Node.js" url="https://nodejs.org/en/" />
+                        <SkillTag skillName="Express" url="https://expressjs.com/" />
+                        <SkillTag skillName="Mongo" url="https://www.mongodb.com/" />
+                        <SkillTag skillName="Mongoose" url="https://mongoosejs.com/" />
+                    </div>
+                </div>
             </div>
-            <div>
-                <h3>Back End</h3>
-                <SkillTag skillName="Node.js"/>
-                <SkillTag skillName="Express"/>
-                <SkillTag skillName="MongoDB"/>
-                <SkillTag skillName="Mongoose"/>
-                <SkillTag skillName="MySQL"/>
-                <SkillTag skillName="Sequelize"/>
+
+            <div className="skillType">
+            <img className="typePics" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" alt="project screenshot" />
+                <div className="content">
+                    <h2>Use for school</h2>
+                    <div className="projSkills">
+                        <SkillTag skillName="React Native" url="https://reactnative.dev/" />
+                        <SkillTag skillName="JavaScript" url="https://www.javascript.com/" />
+                        <SkillTag skillName="Node.js" url="https://nodejs.org/en/" />
+                        <SkillTag skillName="Express" url="https://expressjs.com/" />
+                        <SkillTag skillName="Mongo" url="https://www.mongodb.com/" />
+                        <SkillTag skillName="Mongoose" url="https://mongoosejs.com/" />
+                    </div>
+                </div>
             </div>
-            <div>
-                <h3>Other</h3>
-                <SkillTag skillName="Git"/>
-                <SkillTag skillName="GitHub"/>
-                <SkillTag skillName="Heroku"/>
-                <SkillTag skillName="Jest"/>
-                <SkillTag skillName="JQuery"/>
-                <SkillTag skillName="Handlebars"/>
+
+            <div className="skillType">
+            <img className="typePics" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" alt="project screenshot" />
+                <div className="content">
+                    <h2>Use for fun</h2>
+                    <div className="projSkills">
+                        <SkillTag skillName="React Native" url="https://reactnative.dev/" />
+                        <SkillTag skillName="JavaScript" url="https://www.javascript.com/" />
+                        <SkillTag skillName="Node.js" url="https://nodejs.org/en/" />
+                        <SkillTag skillName="Express" url="https://expressjs.com/" />
+                        <SkillTag skillName="Mongo" url="https://www.mongodb.com/" />
+                        <SkillTag skillName="Mongoose" url="https://mongoosejs.com/" />
+                    </div>
+                </div>
             </div>
         </div>
     );
